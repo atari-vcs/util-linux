@@ -1,0 +1,23 @@
+From f449bd2125cefbb2c6e9a303d1d65d6fcf5e5871 Mon Sep 17 00:00:00 2001
+From: Andreas Henriksson <andreas@fatal.se>
+Date: Mon, 12 Nov 2018 19:44:27 +0100
+Subject: [PATCH] Add Documentation key to fstrim.service
+
+---
+ sys-utils/fstrim.service.in | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/sys-utils/fstrim.service.in b/sys-utils/fstrim.service.in
+index d70367eea..2d5daf99d 100644
+--- a/sys-utils/fstrim.service.in
++++ b/sys-utils/fstrim.service.in
+@@ -1,5 +1,6 @@
+ [Unit]
+ Description=Discard unused blocks on filesystems from /etc/fstab
++Documentation=man:fstrim(8)
+ 
+ [Service]
+ Type=oneshot
+-- 
+2.19.1
+
