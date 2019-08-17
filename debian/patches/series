@@ -1,5 +1,0 @@
-verbose-tests.patch
-fix-agetty-hurd.patch
-uuid-service-documentation.patch
-fstrim-service-documentation.patch
-agetty-Return-old-behavior-with-empty-logname.patch

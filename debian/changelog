@@ -1,3 +1,11 @@
+util-linux (2.33.1-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release.
+  * Drop all patches, now included in upstream release
+
+ -- Andreas Henriksson <andreas@fatal.se>  Thu, 10 Jan 2019 09:30:43 +0100
+
 util-linux (2.33-0.2) unstable; urgency=medium
 
   * Non-maintainer upload.
