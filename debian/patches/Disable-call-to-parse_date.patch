@@ -1,0 +1,30 @@
+From: Ritesh Raj Sarraf <ritesh.sarraf@collabora.com>
+Date: Mon, 10 Feb 2020 20:14:18 +0530
+Subject: Disable call to parse_date()
+
+Because parse-date sources are gplv3
+
+Signed-off-by: Ritesh Raj Sarraf <ritesh.sarraf@collabora.com>
+---
+ sys-utils/hwclock.c | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+
+diff --git a/sys-utils/hwclock.c b/sys-utils/hwclock.c
+index d9acbaf..6d1b59f 100644
+--- a/sys-utils/hwclock.c
++++ b/sys-utils/hwclock.c
+@@ -1393,12 +1393,8 @@ int main(int argc, char **argv)
+ 		warnx(_("--date is required for --set or --predict"));
+ 		exit(EXIT_FAILURE);
+ 		}
+-		if (parse_date(&when, ctl.date_opt, NULL))
+-			set_time = when.tv_sec;
+-		else {
+-			warnx(_("invalid date '%s'"), ctl.date_opt);
+-			exit(EXIT_FAILURE);
+-		}
++		warnx(_("parse_date method not available on Apertis"));
++		exit(EXIT_FAILURE);
+ 	}
+ 
+ #if defined(__linux__) && defined(__alpha__)
