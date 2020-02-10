@@ -1,3 +1,15 @@
+util-linux (2.33.1-0.1co1) apertis; urgency=medium
+
+  * Apertis specific downstream changes
+  * d/patches/Remove-parse-date-source-and-related-build-sections.patch
+    - Remove sources files which are GPLv3
+  * d/patches/Disable-call-to-parse_date.patch
+    - Disable call to parse_date() in hwclock.c
+    - Instead print an error stating that prase_date() is not available
+      on Apertis
+
+ -- Ritesh Raj Sarraf <ritesh.sarraf@collabora.com>  Mon, 10 Feb 2020 20:37:37 +0530
+
 util-linux (2.33.1-0.1) unstable; urgency=medium
 
   * Non-maintainer upload.
