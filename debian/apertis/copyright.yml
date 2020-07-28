@@ -1,0 +1,32 @@
+"*":
+  override-license: GPL-2+
+login-utils/vipw.*:
+  override-license: BSD-4-Clause-UC
+misc-utils/*:
+  override-license: BSD-4-Clause-UC
+sys-utils/fstab.5:
+  override-license: BSD-4-Clause-UC
+sys-utils/renice.*:
+  override-license: BSD-4-Clause-UC
+sys-utils/swapon.8:
+  override-license: BSD-4-Clause-UC
+term-utils/*:
+  override-license: BSD-4-Clause-UC
+term-utils/mesg.c:
+  override-license: BSD-4-Clause-UC
+term-utils/script.*:
+  override-license: BSD-4-Clause-UC
+text-utils/*:
+  override-license: BSD-4-Clause-UC
+text-utils/colcrt.c:
+  override-license: BSD-4-Clause-UC
+text-utils/colrm.c:
+  override-license: BSD-4-Clause-UC
+text-utils/column.c:
+  override-license: BSD-4-Clause-UC
+text-utils/more.1:
+  override-license: BSD-4-Clause-UC
+Documentation/licenses/COPYING.BSD-4-Clause-UC:
+  override-license: BSD-4-Clause-UC
+lib/signames.c:
+  override-license: BSD-4-Clause-UC
