@@ -1,3 +1,13 @@
+util-linux (2.33.1-0.1co2) apertis; urgency=medium
+
+  [ Ritesh Raj Sarraf ]
+  * debian/apertis/component: Set to target
+
+  [ Emanuele Aina ]
+  * copyright: Add licensing metadata
+
+ -- Emanuele Aina <emanuele.aina@collabora.com>  Sun, 28 Feb 2021 09:54:28 +0000
+
 util-linux (2.33.1-0.1co1) apertis; urgency=medium
 
   * Apertis specific downstream changes
