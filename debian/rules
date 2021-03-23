@@ -24,6 +24,9 @@ CONFOPTS += --enable-static-programs=fdisk,sfdisk,blkid
 # See http://bugs.debian.org/811361
 CONFOPTS += --without-python
 
+# Avoid shipping GPL-3 code on devices
+CONFOPTS += --disable-hwclock-gplv3
+
 # disable utilities shipped by other packages
 # => hardlink
 CONFOPTS += --disable-hardlink

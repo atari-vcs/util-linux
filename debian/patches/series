@@ -6,5 +6,3 @@ debian/man-getopt-examples.patch
 debian/verbose-tests.patch
 upstream/libmount-do-not-canonicalize-ZFS-source-dataset.patch
 upstream/libmount-allow-read-only-for-not-root-users.patch
-Remove-parse-date-source-and-related-build-sections.patch
-Disable-call-to-parse_date.patch

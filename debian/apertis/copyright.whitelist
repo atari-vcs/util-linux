@@ -1,0 +1,3 @@
+# disabled with --disable-hwclock-gplv3 in debian/rules
+sys-utils/hwclock-parse-date.y
+sys-utils/hwclock-parse-date.c
