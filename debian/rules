@@ -22,6 +22,7 @@ CONFOPTS += --enable-static-programs=fdisk,sfdisk,blkid
 
 # Help welcome packaging the (libmount) python bindings.
 # See http://bugs.debian.org/811361
+# Keep the bindings disabled since they are licensed under the LGPL-3
 CONFOPTS += --without-python
 
 # Avoid shipping GPL-3 code on devices
