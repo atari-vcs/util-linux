@@ -1,3 +1,15 @@
+util-linux (2.36.1-7apertis1) apertis; urgency=medium
+
+  [ Ritesh Raj Sarraf ]
+  * Sync updates from Debian Bullseye
+
+  [ Emanuele Aina ]
+  * debian/apertis/gitlab-ci.yml: Drop since we use an external definition
+  * Disable the GPL-3 parse-date code in hwclock
+  * Document that Python bindings are disabled due to licensing issues
+
+ -- Emanuele Aina <emanuele.aina@collabora.com>  Tue, 23 Mar 2021 13:04:13 +0000
+
 util-linux (2.36.1-7) unstable; urgency=medium
 
   * libmount: allow --read-only for not-root users.
