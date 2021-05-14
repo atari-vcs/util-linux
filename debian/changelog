@@ -1,3 +1,9 @@
+util-linux (2.36.1-7apertis1vcs0) vcs; urgency=medium
+
+  * Build for atari vcs project
+
+ -- Christopher Obbard <chris.obbard@collabora.com>  Fri, 14 May 2021 09:32:43 +0100
+
 util-linux (2.36.1-7apertis1) apertis; urgency=medium
 
   [ Ritesh Raj Sarraf ]
